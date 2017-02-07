@@ -27,7 +27,7 @@ public class MinNbDiv
         // default: 1 & self
         int numberOfDivision = 2;
 
-        // loop 1..square root of n
+        // loop 2..half of n
         for (int i = 2; i * 2 <= n; i++)
         {
             // if mod factor == 0, number division increase by 1
